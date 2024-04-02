@@ -1,0 +1,157 @@
+﻿Test Case ID,Test Scenario,Precondition,Test Condition,Test Case Steps,Test Data,Expected Result,,,,,,,,,,,,,,,,,,
+TC_HomePage_01,TS_HomePage_01,Browser should be opened.,To validate that when website url is entered in the browser it should opens the website.,"1.Enter the URL for the website
+                         ",1. https://www.magicbricks.com/,It should open the Home page of the website.,,,,,,,,,,,,,,,,,,
+TC_HomePage_02,TS_HomePage_01,Magic Bricks website should be opened.,To validate that website is displayed correctly in all the browsers,"1. Visit different pages and features of the website
+",1. https://www.magicbricks.com/,It should be able to display the content correctly in all kinds of browser.,,,,,,,,,,,,,,,,,,
+TC_Homepage_03,TS_HomePage_01,Different pages and features of the websites are accessible.,To validate that user is able to perform the tasks on website in all the browsers.,"1. Open another Browser
+2. Enter the URL for the website
+3. Visit different pages and features of the website
+4. Follow above steps for all kinds of browsers.",1. https://www.magicbricks.com/,User should be able to perform the tasks on all kinds of browser.,,,,,,,,,,,,,,,,,,
+TC_Sell_01,TS_Sell_01,Magic Bricks website should be opened.," To Validate that the user is able to view the ""Ad Packages"" section in the ""Sell Section"" under ""For Agent and Builders""","1. Hover over ""Sell module""",,"User should be able to see ""Ad Packages"" section in the ""Sell Section"" under ""For Agent and Builders"".",,,,,,,,,,,,,,,,,,
+TC_AdPackages_01,TS_AdPackages_01,Sell module drop down should be opened.,"To Validate that the user is able to navigate to Ad packages after clicking on ""Ad Packages"" option."," Click on the ""Ad packages"" in the ""sell module"".",,"User should be able to navigate to Ad Packages after clicking on ""Ad Packages"" Option.",,,,,,,,,,,,,,,,,,
+TC_AdPackages_02,TS_AdPackages_01,Ad package website is opened.,To validate that the user is able to view all the contents in ad Packages section.,"Scroll down the ""ad package"" website.",,User Should be able to view all the contents in ad Pacakges section.,,,,,,,,,,,,,,,,,,
+TC_AdPackages_03,TS_AdPackages_01,Ad package website is opened.,"To validate on clicking individual , user is able to click the rent or sell option.","Click on ""Individual"".",,User Should be able to view the rent or sell option on clicking the Individual.,,,,,,,,,,,,,,,,,,
+TC_AdPackages_04,TS_AdPackages_01,Ad package website is opened.,To validate on clicking the sell user is able to choose the property as Residential or Commercial .,"Click on ""sell"".",,User Should be able to choose the property as Residential or Commercial.,,,,,,,,,,,,,,,,,,
+TC_AdPackages_05,TS_AdPackages_01,Ad package website is opened.,"To validate on clicking the rent user is able to chose the property as Residential,Commercial or For PG/Flatmate.","Click on ""Rent"".",,"User Should be able to choose the property as Residential, Commercial or For PG/Flatmate.",,,,,,,,,,,,,,,,,,
+TC_AdPackages_06,TS_AdPackages_01,Ad package website is opened.,To Validate on clicking the show packages for individual it should be navigated to packages for individual only.," Click on ""Show Packages"".",,User Should be navigated to Packages for individual only.,,,,,,,,,,,,,,,,,,
+TC_AdPackages_07,TS_AdPackages_01,"
+1.Packages for individual is opened.
+2. Sell Module drop down is visible","To validate on clicking Agent, user is able to choose the property as Residential,Commercial or PG/Flatmmate","1. Hover over ""sell module""
+2. Click on ""ad Package""
+3. Click on ""Agent"".",,"User Should be able to Choose the property as Residential,Commercial or PG/Flatmate",,,,,,,,,,,,,,,,,,
+TC_AdPackages_08,TS_AdPackages_01,Ad package website is opened.,To Validate on clicking the show packages for agent it should be navigated to packages for agent only.,"1. Click on ""Residential"",""Commercial"" or ""PG/Flatmate""
+2. Click on ""show Packages"".",,"
+User should be able to navigated to packages for Agent only.",,,,,,,,,,,,,,,,,,
+TC_AdPackages_09,TS_AdPackages_01,Packages for Agent is opened.,"To validate on clicking Builder, User is able to choose the property as Residential or commercial.","1. Hover over the ""sell module""
+2. Click on ""ad Package""
+3. Click on ""Builder"".",,User should be able to choose the property as Residential or commercial only.,,,,,,,,,,,,,,,,,,
+TC_AdPackages_10,TS_AdPackages_01,Ad package website is opened.,To Validate on clicking the show packages for builder it should be navigated to packages for builder only.,"1. Click on ""Residential or Commercial"".
+2. Click on ""show Packages"".",,User should be able to navigated to packages for Builder only.,,,,,,,,,,,,,,,,,,
+TC_RequestACallBack_01,TS_RequestACallBack_01,Packages for Builder is opened.,To validate if user is able to find option for request a callback.,"1. Hover over the ""sell module""
+2. Click on ""ad Package""",,User Should be able to find the option for request a callback.,,,,,,,,,,,,,,,,,,
+TC_RequestACallBack_02,TS_RequestACallBack_01,"1.Ad package website is opened.
+2. Request a call back form is accessible",To validate if user is able to enter  all valid details,"1. Enter your name
+2. Enter your mobile number
+3. Enter your email id
+4. Enter your City.
+5. Enter your query
+
+","1. Darshana
+2. +91 7354645637
+3. rucha123@gmail.com
+4. Nagpur
+5. enter your query.
+
+",User should be able to enter all valid details.,,,,,,,,,,,,,,,,,,
+TC_RequestACallBack_03,TS_RequestACallBack_01,Ad package website is opened.,To validate user should be able to click the checkbox and it should be checked for agreeing terms and conditions.,"Click on the ""checkbox"".",,User should be able to click on the checkbox and it is checked for agreeing terms and conditions.,,,,,,,,,,,,,,,,,,
+TC_RequestACallBack_04,TS_RequestACallBack_01,Ad package website is opened.,"To validate on clicking ""T&C"", ""Privacy policy"" or ""Cookie policy"" user should be redirected to the Magic Bricks terms and conditions","Click on ""T&C"", ""Privacy policy"" or ""Cookie policy""",,User should be redirected to the Magic Bricks terms and conditions.,,,,,,,,,,,,,,,,,,
+TC_RequestACallBack_05,TS_RequestACallBack_01,All the required field is completed.,"To validate if the user is able to get a Thank you message after clicking ""get a call back"" option."," Click on ""Get a callback"".",,"User should be able to receive a message as ""Thank you for submitting your details.Our team willget back to you shortly"".",,,,,,,,,,,,,,,,,,
+TC_RequestACallBack_06,TS_RequestACallBack_01,"1.Ad package website is opened.
+2. Request a call back form is accessible",To validate if all or any of the required field is empty it should display the error message.,"1. Enter your name
+2. Enter your mobile number
+3. Enter your email id
+4. Enter your City.
+5. Enter your query
+6. Click on ""checkbox""
+7. Click on ""Get a callback"".",,"User should be able to receive the error message as ""Compulsory Field. Cannot be blank"".",,,,,,,,,,,,,,,,,,
+TC_RequestACallBack_07,TS_RequestACallBack_01,"1.Ad package website is opened.
+2. Request a call back form is accessible",To validate if the check box is not checked it should display the error message.,"1. Enter your name
+2. Enter your mobile number
+3. Enter your email id
+4. Enter your City.
+5. Enter your query
+6.Click on ""Get a callback"".","1. Darshana
+2. +91 7972217890
+3. rucha123@gmail.com
+4. Nagpur
+5. enter your query.
+
+"," User should be able to get a error message as ""Please agree to the tearms before proceeding"".",,,,,,,,,,,,,,,,,,
+TC_RequestACallBack_08,TS_RequestACallBack_01,"1.Ad package website is opened.
+2. Request a call back form is accessible",To validate if the Name and city entered is invalid then it should display the error message,"1. Enter your name
+2. Enter your mobile number
+3. Enter your email id
+4. Enter your City.
+5. Enter your query
+6. Click on checkbox""
+7.Click on ""Get a callback"".","1. Dar2345
+2. +91 7972217890
+3. rucha123@gmail.com
+4. $rt675
+5. enter your query.
+
+","User should be able to get a error message as ""Numbers or Special Characters not allowed"".",,,,,,,,,,,,,,,,,,
+TC_RequestACallBack_09,TS_RequestACallBack_01,"1.Ad package website is opened.
+2. Request a call back form is accessible",To validate if the mobile Number is invalid then it should display the error message.,"1. Enter your name
+2. Enter your mobile number
+3. Enter your email id
+4. Enter your City.
+5. Enter your query
+6. Click on checkbox""
+7.Click on ""Get a callback"".","1. Darshana
+2. +91 73546dgd
+3. rucha123@gmail.com
+4. Nagpur
+5. enter your query.
+
+","User should be able to get a error message as ""Please enter a valid 10 digit mobile number."".",,,,,,,,,,,,,,,,,,
+TC_RequestACallBack_10,TS_RequestACallBack_01,"1.Ad package website is opened.
+2. Request a call back form is accessible",To validate if the email id entered is invalid then it should display the error message.,"1. Enter your name
+2. Enter your mobile number
+3. Enter your email id
+4. Enter your City.
+5. Enter your query
+6. Click on checkbox""
+7.Click on ""Get a callback"".","1. Darshana
+2. +91 7354546735
+3. rucha1@gmail.c
+4. Nagpur
+5. enter your query.
+
+","User should be able to get the error message as ""Please enter valid email Id""",,,,,,,,,,,,,,,,,,
+TC_RequestACallBack_11,TS_RequestACallBack_01,"1.Ad package website is opened.
+2. Request a call back form is accessible",To validate if the entered query is one word or less than 10 characters then the error message should be displayed.,"1. Enter your name
+2. Enter your mobile number
+3. Enter your email id
+4. Enter your City.
+5. Enter your query
+6. Click on checkbox""
+7.Click on ""Get a callback"".","1. Darshana
+2. +91 7972217890
+3. rucha123@gmail.com
+4. Nagpur
+5. 234wre
+
+","User should be able to get a error message as ""Min 10 Characters"".",,,,,,,,,,,,,,,,,,
+TC_RequestACallBack_12,TS_RequestACallBack_01,Chat is accessible on Ad package web page,"To validate on clicking ""Chat"" user is redirected to live support i.e Zendesk.","1. Click on ""chat"".",,User should be able to redirect to the live support i.e Zendesk.,,,,,,,,,,,,,,,,,,
+TC_iAdvantage_01,TS_iAdvantage_01,Sell module drop down should be opened.," To Validate that the user is able to navigate to iAdvantage after clicking on ""iAdvantage"" option.","1. Hover to ""sell module"" of the ""Ad package"" webpage.
+2. Click on the iAdvantage option.",,User should be navigated to the iAdvantage webpage.,,,,,,,,,,,,,,,,,,
+TC_iAdvantage_02,TS_iAdvantage_01,iAdvantage web page is opened.,To validate that the user is able to view all the contents in iAdvantage section.,Scroll down the iAdvantage web Page,,User should be able to view all the contents in iAdvantage Section.,,,,,,,,,,,,,,,,,,
+TC_iAdvantage_03,TS_iAdvantage_01,iAdvantage web page is opened.,To validate on clicking the url user is redirected to the login page of the iAdvantage.,"1. Click on the iAdvantage login ""URL"".",,User should be redirected to the login page of the iAdvantage.,,,,,,,,,,,,,,,,,,
+TC_iAdvantage_04,TS_iAdvantage_01,iAdvantage web page is opened ,To validate user is not able to add the available amount to the cart without login and should navigate to login page,"1. Click on add to ""Add to my orders"".",,User should not be able to add the amount to my orders without the login and should navigate to login page.,,,,,,,,,,,,,,,,,,
+TC_iAdvantage_05,TS_iAdvantage_01,iAdvantage web page is opened.,"To validate if the user is able to navigate to the login page after clicking on ""Go to cart"" option.","1. Click on ""Go to Cart"".",,User should be navigated to the login page.,,,,,,,,,,,,,,,,,,
+TC_iAdvantage_06,TS_iAdvantage_01,Login page should be opened.,To Validate user is able to view the cart after login using email id or password,"1. Enter your email id or mobile number 
+2. Enter your password
+3. Click ""login""","1. Rucha123@gmail.com
+2. Rucha@123",User should be able to view the cart .,,,,,,,,,,,,,,,,,,
+TC_SalesEnquiry_01,TS_SalesEnquiry_01,Sell module drop down should be opened.,"To validate that the user is able to navigate to Sales Enquiry web page after clicking on ""Sales Enquiry"" option.","1. Click on the ""Sales Enquiry"".",,User should be able to navigate to Sales Enquiry web page.,,,,,,,,,,,,,,,,,,
+TC_SalesEnquiry_02,TS_SalesEnquiry_01,"""Sales Enquiry"" web page should be opened.",To validate on clicking Request a callback user is getting a pop up to enter the details to get a call back if user is not logged in.,"1. Click on ""request a callback""
+",,"User should be able to get the pop up to enter the details and able to request for a call back after entering the details.
+",,,,,,,,,,,,,,,,,,
+TC_SalesEnquiry_03,TS_SalesEnquiry_01,"""Request a callback"" pop-up should be opened.",To validate if all the fields are blank user should be able to receive error messages for all the respective fields.,"Click on ""Request a callback"".",,User should get the error message for the respective fields if the fields are blank.,,,,,,,,,,,,,,,,,,
+TC_SalesEnquiry_04,TS_SalesEnquiry_01,"1. Sales Enquiry web page should be opened.
+2. User should be already logged in with the magic bricks account.",To validate if the user has already logged in to magic bricks account the details are already filled into the request a call back pop up,"1. User should be already logged in to the account
+2. Click on ""Request a callback"" ",,logged in user should already find the details filled.,,,,,,,,,,,,,,,,,,
+TC_SalesEnquiry_05,TS_SalesEnquiry_01,Sales Enquiry web page should be opened.," To validate on clicking ""Show me"" option user is able to get the pop up box for selecting the options as buyer, agent or owner.","1. Click on ""show me"" option in the ""Sales Enquiry"" web page",,"User should get the pop up box for selecting options as buyer, agent or owner.",,,,,,,,,,,,,,,,,,
+TC_SalesEnquiry_06,TS_SalesEnquiry_01,"Pop up box for selecting the Buyer,Agent or Owner should be opened.",To validate After searching the question or typing the keyword user is able to view the popup for the similar questions or the questions containing the entered keyword.," 1. Click on radio button of  ""buyer"",""owner"" or ""agent""
+2. Type the question in the search box
+3. click on ""search""",How to login?, After searching the question or typing the keyword user should be able to view the popup for the similar questions or the questions containing the entered  keyword.,,,,,,,,,,,,,,,,,,
+TC_SalesEnquiry_07,TS_SalesEnquiry_01,"Pop up box for selecting the Buyer,Agent or Owner should be opened.","To validate user is able to navigate back to the same page on clicking the ""Cross""","1. Click on the ""Cross"".",,"User should be able to navigate back to same page i.e ""Help"" on clicking the ""Cross"" button",,,,,,,,,,,,,,,,,,
+TC_SalesEnquiry_08,TS_SalesEnquiry_01,Help page should be opened,To validate user is able to find cities according to the alphabet.,"1. Hower to the ""sell module""
+2. Click ""Sales Enquiry""
+3. Click on the initial alphabet of the city",,User should be able to find the cities according to the alphabet that is entered,,,,,,,,,,,,,,,,,,
+TC_SalesEnquiry_09,TS_SalesEnquiry_01,Sales Enquiry web page should be opened., To validate User is navigated to the outlook or email account on clicking any of the email.,1. Click on any of the email id.,,User should be able to navigate to the email account or outlook on clicking any of the given email,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
